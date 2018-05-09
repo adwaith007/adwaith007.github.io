@@ -1,0 +1,89 @@
+*{
+  box-sizing: content-box;
+  font-family: Raleway;
+
+}
+
+.icitem, .menuitem, .iclist{
+  display: inline-block;
+}
+.headerbar{
+  width: 100%;
+}
+div{
+  border: 1px solid black;
+}
+.progress_bar{
+  border:0;
+  margin: 0;
+  background: #e9ecef;
+  border-radius: 0.3em;
+}
+.progress{
+  border:0;
+  margin: 0;
+  background: #28a745;
+  border-radius: 0.3em;
+}
+.headerbar{
+  display: inline-flex;
+}
+#contacts, #resume, #work{
+  display: none;
+}
+#mypic{
+  /* display: inline-flex; */
+  width:34%;
+  height:100%;
+
+}
+.iclist{
+  width:50%;
+  text-align: justify;
+}
+#namebox{
+  font-size: 3em;
+  display: inline-block;
+  width: 50%;
+  padding: 1em;
+
+}
+.wrapper{
+  display: inline-block;
+  padding-top: 2em;
+}
+.sidebox{
+  /* display: inline-flex; */
+  width:66%;
+
+}
+.name_link{
+  background-color: #343a40;
+  color: #fff;
+  height:50%
+}
+.menuitem{
+  height: 100%;
+  width: 24%;//change it to 25% after removing borders at last
+  margin: 0;
+  border: 0;
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+}
+.menuflex{
+  height: 100% !important;
+}
+.menuitem i{
+  font-size: 1.5em;
+}
+.joblist{
+  display: inline-flex;
+  width: 100%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+
+}
+.jobs{
+  width:33%;
+}
