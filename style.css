@@ -1,7 +1,10 @@
 *{
-  box-sizing: content-box;
+  box-sizing: border-box;
   font-family: Raleway;
 
+}
+.name_link{
+  display: table-row;
 }
 
 .icitem, .menuitem, .iclist{
@@ -38,13 +41,18 @@ div{
 
 }
 .iclist{
-  width:50%;
+  width:49%;//change it to 50% after removing borders at last
   text-align: justify;
+}
+.intro{
+  background: black;
+  color: white;
+  display: table-row;
 }
 #namebox{
   font-size: 3em;
   display: inline-block;
-  width: 50%;
+  width: 49%;//change it to 50% after removing borders at last
   padding: 1em;
 
 }
@@ -55,6 +63,8 @@ div{
 .sidebox{
   /* display: inline-flex; */
   width:66%;
+  display: table;
+  height: 0;
 
 }
 .name_link{
@@ -73,6 +83,7 @@ div{
 }
 .menuflex{
   height: 100% !important;
+  display: table-row;
 }
 .menuitem i{
   font-size: 1.5em;
@@ -86,4 +97,10 @@ div{
 }
 .jobs{
   width:33%;
+}
+.cicon{
+  background: #dc3545;
+  color: white;
+  height: 0 !important;
+  width: 100%;
 }
