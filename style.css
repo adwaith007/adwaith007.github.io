@@ -5,6 +5,7 @@
 }
 .name_link{
   display: table-row;
+  height: 40%;
 }
 
 .icitem, .menuitem, .iclist{
@@ -48,6 +49,7 @@ div{
   background: black;
   color: white;
   display: table-row;
+  height: 20%;
 }
 #namebox{
   font-size: 3em;
@@ -82,7 +84,7 @@ div{
   text-align: center;
 }
 .menuflex{
-  height: 100% !important;
+  height: 40%;
   display: table-row;
 }
 .menuitem i{
